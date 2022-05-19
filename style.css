@@ -1,0 +1,112 @@
+html, body { 
+    height:100%;
+    margin: 0;
+    padding: 0; 
+    background-color: aliceblue;
+    color:  #000;
+    text-align: center;
+}
+
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    margin: 20px 20px 20px 40px;
+    color: #eee;
+}
+.header{
+    background-image: url("images/food.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: auto;
+    height: 100vh;
+}
+nav,.menu{
+    display: flex;
+}
+.menu{
+    position: absolute;
+    right: 0;
+}
+.menu-option,.menu-option>a{
+    list-style: none;
+    padding:50px 20px;
+    text-decoration: none;
+    color: #eee;
+}
+
+.update-section{
+    margin: 80px 25%;
+    text-align: center;
+}
+.update{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 60px auto;
+    line-height: 2;
+}
+.order-online{
+    background: none;
+    padding: 20px 80px;
+    margin: 10%;
+}
+.order-online:hover{
+    background-color:floralwhite;
+    font-weight: bolder;
+    padding: 25px 85px;
+}
+br{
+    content: ' ';
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px dashed black;
+}
+#contacts-section{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.contacts{
+    margin: 20px 5%;
+    font-family: 'Roboto', sans-serif;
+}
+.food-image{
+    max-width: 30%;
+    margin:  80px auto;
+    border-radius: 2%;
+    padding: 10px;
+    margin-top: 0;
+}
+.trademark{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+.food-header{
+    margin-bottom: 0px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 5em;
+}
+
+/*Form CSS styles*/
+#form-enquiry{
+    border: 2px solid cornsilk;
+    width: 500px;
+    text-align: left;
+    font-size: 20px;
+}
+.form-group{
+    margin: 10px 50px;
+}
+.btn-submit{
+    margin: 20px auto;
+    padding: 15px 50px;
+}
+#Name,#Message,#Email{
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+}
